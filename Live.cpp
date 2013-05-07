@@ -35,7 +35,6 @@ Live::Live() : DEFAULT_URL("Insert url here") {
 
     // Create resource folder if it does not exist
     fileCreate(mFileUtil->getLocalPath() + "resources/");
-
 }
 
 /**
@@ -242,7 +241,6 @@ void Live::buttonClicked(Widget* button) {
         maMessageBox("MoSync Live", "Load web pages live via jsbin.com");
     }
 }
-
 
 /**
  * Initialize the Wormhole JS library. Should be

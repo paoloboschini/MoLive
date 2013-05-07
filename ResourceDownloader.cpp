@@ -1,14 +1,21 @@
+/* Copyright (C) 2013 Paolo Boschini */
+
 #include "ResourceDownloader.h"
 
+/**
+ * Constructor.
+ *
+ * @param filename      The filename for saving the resource.
+ * @param callbackId    The JavaScript callback to call on download complete
+ * @param webView       The WebView used to call JavaScript
+ */
 ResourceDownloader::ResourceDownloader(String filename, String callbackId, WebView *webView) :
     mFilename(filename), mCallbackId(callbackId), mWebView(webView) {
 }
 
-ResourceDownloader::~ResourceDownloader() {}
-
 /**
  * Called when download is complete.
- * @param text Contains JSON with list of image urls, NULL on error.
+ * @param text Contains the resource data
  */
 void ResourceDownloader::onDownloadComplete(MAHandle data) {
 

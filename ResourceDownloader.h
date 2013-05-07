@@ -1,5 +1,7 @@
-#ifndef RESOURCE_DOWNLOADER
-#define RESOURCE_DOWNLOADER
+/* Copyright (C) 2013 Paolo Boschini */
+
+#ifndef RESOURCE_DOWNLOADER_H
+#define RESOURCE_DOWNLOADER_H
 
 #include <Wormhole/HybridMoblet.h>
 #include <MAUtil/String.h>
@@ -15,24 +17,31 @@ using namespace Wormhole;
 using namespace MAUtil;
 
 /**
- * Helper class for downloading a list of photos from a server.
+ * Helper class for downloading a list of resources from a server.
  * This downloader will delete itself upon completion.
  */
 class ResourceDownloader : public HighLevelBinaryDownloader {
 
 private:
+
     String mFilename;
     String mCallbackId;
     WebView *mWebView;
 
 public:
-    ResourceDownloader(String filename, String callbackId, WebView *webView);
 
-    virtual ~ResourceDownloader();
+    /**
+     * Constructor.
+     *
+     * @param filename      The filename for saving the resource.
+     * @param callbackId    The JavaScript callback to call on download complete
+     * @param webView       The WebView used to call JavaScript
+     */
+    ResourceDownloader(String filename, String callbackId, WebView *webView);
 
     /**
      * Called when download is complete.
-     * @param text Contains JSON with list of image urls, NULL on error.
+     * @param text Contains the resource data
      */
     virtual void onDownloadComplete(MAHandle data);
 
