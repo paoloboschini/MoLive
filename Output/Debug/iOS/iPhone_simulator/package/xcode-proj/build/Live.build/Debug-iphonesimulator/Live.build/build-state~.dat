@@ -1,0 +1,526 @@
+TLive
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Info.plist Live.plist
+cCpResource data_section.bin build/Debug-iphonesimulator/Live.app/data_section.bin
+cCpResource resources build/Debug-iphonesimulator/Live.app/resources
+cCpResource Icon-72.png build/Debug-iphonesimulator/Live.app/Icon-72.png
+cCpResource Icon.png build/Debug-iphonesimulator/Live.app/Icon.png
+cCpResource Icon@2x.png build/Debug-iphonesimulator/Live.app/Icon@2x.png
+cCpResource Default-568h@2x.png build/Debug-iphonesimulator/Live.app/Default-568h@2x.png
+cProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-aqdxatwfrczozzdrvyadkbcfsmav/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-ctagkkiwiedifdclwcnpywsjvjcj/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-bfqudqroxgqabbezokbnqqumdvaf/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/rebuild.build.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/rebuild.build.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/main.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncAppDelegate.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncViewController.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncViewController.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cLd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live normal i386
+cGenerateDSYMFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app.dSYM /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live
+cTouch /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c00000000514304310000000000000110
+t1363346481
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000510BFF8500000000001EB540
+t1359740805
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000510BFF8500000000000C1030
+t1359740805
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000510BFF8600000000003D4DF0
+t1359740806
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510BFF860000000000228FE0
+t1359740806
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000510BFF86000000000009C590
+t1359740806
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000510BFF860000000000085620
+t1359740806
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c00000000510BFF8600000000000FB1E0
+t1359740806
+s1028576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000510BFF870000000000020F20
+t1359740807
+s134944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+c00000000510BFF8700000000001924E0
+t1359740807
+s1647840
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510BFF8800000000003DDFA0
+t1359740808
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000510BFF8700000000000015F7
+t1359740807
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000510BFF8900000000000F9CF0
+t1359740809
+s1023216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000510BFF8900000000002DBA50
+t1359740809
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000510BFF8A0000000000114570
+t1359740810
+s1131888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000510BFF8A00000000000BCC20
+t1359740810
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000510BFF8A0000000000015400
+t1359740810
+s87040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000510BFF8A00000000001D5750
+t1359740810
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c00000000510BFF8A0000000000026C50
+t1359740810
+s158800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000510BFF8B000000000006CC50
+t1359740811
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510BFF8B0000000000000E8D
+t1359740811
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510BFF8C0000000000AB6230
+t1359740812
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c00000000510BFF880000000000036AF0
+t1359740808
+s223984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libsqlite3.dylib
+c00000000510BFF9B00000000000D1F20
+t1359740827
+s859936
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncAppDelegate.h
+c000000005188EACD00000000000003EC
+t1367927501
+s1004
+i<UIKit/UIKit.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+c000000005188EACD0000000000001820
+t1367927501
+s6176
+i"MoSyncAppDelegate.h"
+i"MoSyncViewController.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncViewController.h
+c000000005188EACD0000000000000330
+t1367927501
+s816
+i<UIKit/UIKit.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncViewController.mm
+c000000005188EACD0000000000001028
+t1367927501
+s4136
+i"MoSyncViewController.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/converters.h
+c000000005188EACD00000000000006BD
+t1367927501
+s1725
+i<helpers/maapi_defs.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/helpers/cpp_defs.h
+c000000005188EACD000000000002EE8E
+t1367927501
+s192142
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/helpers/cpp_maapi.h
+c000000005188EACD0000000000008C70
+t1367927501
+s35952
+i"maapi_defs.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/helpers/maapi_defs.h
+c000000005188EACD0000000000000809
+t1367927501
+s2057
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/mstypeinfo.h
+c000000005188EACD00000000000006F3
+t1367927501
+s1779
+i<base/Syscall.h>
+i<helpers/cpp_defs.h>
+i<helpers/cpp_maapi.h>
+i"syscall_static_cpp.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/rebuild.build.cpp
+c000000005188EACD000000000030CC8A
+t1367927501
+s3198090
+i"mstypeinfo.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/syscall_static_cpp.h
+c000000005188EACD0000000000004A1F
+t1367927501
+s18975
+i<helpers/maapi_defs.h>
+i"converters.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Default-568h@2x.png
+c000000005188EACD00000000000048A2
+t1367927501
+s18594
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Icon-72.png
+c000000005188EAD1000000000000090A
+t1367927505
+s2314
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Icon.png
+c000000005188EACF0000000000000719
+t1367927503
+s1817
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Icon@2x.png
+c000000005188EAD30000000000000D3E
+t1367927507
+s3390
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/MoSync_Prefix.pch
+c000000005188EACD0000000000000285
+t1367927501
+s645
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app.dSYM
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Icon-72.png
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Icon.png
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Icon@2x.png
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Info.plist
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/PkgInfo
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/data_section.bin
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/resources
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/Live.LinkFileList
+c000000005188EAD400000000000002BE
+t1367927508
+s702
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncAppDelegate.o
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncViewController.o
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/rebuild.build.o
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/data_section.bin
+c000000005188EACD000000000000959C
+t1367927501
+s38300
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/libs/Release-iphonesimulator/libMoSyncLib.a
+c000000005188EACD00000000005BDFC0
+t1367927501
+s6021056
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/main.m
+c000000005188EACD00000000000003D7
+t1367927501
+s983
+i<UIKit/UIKit.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/resources
+c000000005188EACD0000000000056E8D
+t1367927501
+s355981
+
+N/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-aqdxatwfrczozzdrvyadkbcfsmav/MoSync_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-bfqudqroxgqabbezokbnqqumdvaf/MoSync_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-ctagkkiwiedifdclwcnpywsjvjcj/MoSync_Prefix.pch.gch
+t2
+s0
+
+NLive.plist
+c000000005188EACD00000000000005F4
+t1367927501
+s1524
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese36f03542239b741^778463542239b741^---0#1#0#--18"Check dependencies36"B84B8951-EA3F-4627-8C44-2DF264806F18-
+
+CCompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncAppDelegate.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s389620309.567937
+e389620309.689193
+r1
+xCompileC
+xbuild/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncAppDelegate.o
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncAppDelegate.mm5d8c91552239b741^e76db0552239b741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncAppDelegate.mm0000000000000000^2805"CompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncAppDelegate.o Classes/MoSyncAppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=60100 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources/i386 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -include /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-aqdxatwfrczozzdrvyadkbcfsmav/MoSync_Prefix.pch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncAppDelegate.mm -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncAppDelegate.o36"36573D6A-5B06-4032-9A7E-103913D4432C-
+
+CCompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncViewController.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncViewController.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s389620309.568262
+e389620309.670371
+r1
+xCompileC
+xbuild/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncViewController.o
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncViewController.mmf4a391552239b741^309cab552239b741^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncViewController.mm0000000000000000^2817"CompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncViewController.o Classes/MoSyncViewController.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=60100 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources/i386 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -include /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-aqdxatwfrczozzdrvyadkbcfsmav/MoSync_Prefix.pch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/MoSyncViewController.mm -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/MoSyncViewController.o36"5EDB50B3-E1EA-465A-9AFC-D8515CDDE89B-
+
+CCompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/main.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s389620309.314653
+e389620309.398437
+r1
+xCompileC
+xbuild/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/main.o
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/main.mbbb950552239b741^2eff65552239b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/main.m0000000000000000^2712"CompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=60100 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources/i386 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -include /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-bfqudqroxgqabbezokbnqqumdvaf/MoSync_Prefix.pch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/main.m -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/main.o36"9A932F0F-C9C8-42D3-AA76-1F1E3A6C942F-
+
+CCompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/rebuild.build.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/rebuild.build.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s389620308.529854
+e389620313.161913
+r1
+xCompileC
+xbuild/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/rebuild.build.o
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/rebuild.build.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/rebuild.build.cpp10ce87542239b741^bd7229592239b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/rebuild.build.cpp0000000000000000^2727"CompileC build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/rebuild.build.o Classes/rebuild.build.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=60100 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources/i386 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -include /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-ctagkkiwiedifdclwcnpywsjvjcj/MoSync_Prefix.pch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Classes/rebuild.build.cpp -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/rebuild.build.o36"48073F8A-94B7-4D8E-830A-29FE19677BDC-
+
+CCpResource Default-568h@2x.png build/Debug-iphonesimulator/Live.app/Default-568h@2x.png
+s389620308.428095
+e389620308.431891
+r1
+xCpResource
+xDefault-568h@2x.png
+xbuild/Debug-iphonesimulator/Live.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/Live.app/Default-568h@2x.png18b36d542239b741^ac906e542239b741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Default-568h@2x.png000000000080d041^732"CpResource "Default-568h@2x.png" "build/Debug-iphonesimulator/Live.app/Default-568h@2x.png"    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Default-568h@2x.png" /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app36"91EEECA3-1270-4B6F-8703-19812A6DA306-
+
+CCpResource Icon-72.png build/Debug-iphonesimulator/Live.app/Icon-72.png
+s389620308.424159
+e389620308.427804
+r1
+xCpResource
+xIcon-72.png
+xbuild/Debug-iphonesimulator/Live.app/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphonesimulator/Live.app/Icon-72.png40be6c542239b741^b2846d542239b741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Icon-72.png000000000080d041^702"CpResource Icon-72.png build/Debug-iphonesimulator/Live.app/Icon-72.png    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Icon-72.png /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app36"626D3840-3FCB-4487-AA43-039D1F7A15E1-
+
+CCpResource Icon.png build/Debug-iphonesimulator/Live.app/Icon.png
+s389620308.424581
+e389620308.431437
+r1
+xCpResource
+xIcon.png
+xbuild/Debug-iphonesimulator/Live.app/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Debug-iphonesimulator/Live.app/Icon.png9fcb6c542239b741^0b7b6e542239b741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Icon.png000000000080d041^693"CpResource Icon.png build/Debug-iphonesimulator/Live.app/Icon.png    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Icon.png /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app36"57923E2E-2368-4B16-8B43-2EF300A3BBD0-
+
+CCpResource Icon@2x.png build/Debug-iphonesimulator/Live.app/Icon@2x.png
+s389620308.428088
+e389620308.433044
+r1
+xCpResource
+xIcon@2x.png
+xbuild/Debug-iphonesimulator/Live.app/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphonesimulator/Live.app/Icon@2x.png77bc6d542239b741^93e36e542239b741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Icon@2x.png000000000080d041^708"CpResource "Icon@2x.png" "build/Debug-iphonesimulator/Live.app/Icon@2x.png"    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Icon@2x.png" /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app36"B7BF9658-1B41-411A-AFE8-68AE0DEDC98C-
+
+CCpResource data_section.bin build/Debug-iphonesimulator/Live.app/data_section.bin
+s389620308.424125
+e389620308.426883
+r1
+xCpResource
+xdata_section.bin
+xbuild/Debug-iphonesimulator/Live.app/data_section.bin
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/Live.app/data_section.binf9ba6c542239b741^34486d542239b741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/data_section.bin000000000080d041^717"CpResource data_section.bin build/Debug-iphonesimulator/Live.app/data_section.bin    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/data_section.bin /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app36"12C7514C-FC47-4E45-8699-3494BACE8BC7-
+
+CCpResource resources build/Debug-iphonesimulator/Live.app/resources
+s389620308.424129
+e389620308.429606
+r1
+xCpResource
+xresources
+xbuild/Debug-iphonesimulator/Live.app/resources
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Debug-iphonesimulator/Live.app/resourcesfbc96c542239b741^cafa6d542239b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/resources000000000080d041^696"CpResource resources build/Debug-iphonesimulator/Live.app/resources    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/resources /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app36"FD753811-D508-4FBD-956B-2B47C037D677-
+
+CGenerateDSYMFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app.dSYM /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live
+s389620313.489817
+e389620313.789537
+r1
+xGenerateDSYMFile
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app.dSYM
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Generate /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app.dSYMb3787d592239b741^931eca592239b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app.dSYM000000000080d041^757"GenerateDSYMFile build/Debug-iphonesimulator/Live.app.dSYM build/Debug-iphonesimulator/Live.app/Live    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app.dSYM36"28CF1CBC-09FB-430B-966C-6C1D0429F28B-
+
+CLd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live normal i386
+s389620313.168875
+e389620313.482947
+r1
+xLd
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live4f572b592239b741^05a27b592239b741^---0#0#0#--1947"Ld build/Debug-iphonesimulator/Live.app/Live normal i386    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -Llibs/Debug-iphonesimulator -L/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/libs/Release-iphonesimulator -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -filelist /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Objects-normal/i386/Live.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -Xlinker -no_implicit_dylibs -mios-simulator-version-min=3.0 -framework CoreVideo -framework StoreKit -framework CoreMedia -weak_framework MobileCoreServices -weak_framework iAd -framework MediaPlayer -weak_framework EventKit -weak_framework CoreMotion -framework AddressBook -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -weak_framework AVFoundation -framework CoreLocation -lMoSyncLib -framework OpenGLES -framework QuartzCore -weak_framework MessageUI -lsqlite3 -framework SystemConfiguration -framework MapKit -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Live36"F48B3D61-58E4-4A4B-BCE5-5FE26936B6DC-
+
+CProcessInfoPlistFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Info.plist Live.plist
+s389620308.407920
+e389620308.416214
+r1
+xProcessInfoPlistFile
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Info.plist
+xLive.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Live.plist3c1469542239b741^8b8c6a542239b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/Live.plist0000000000000000^759"ProcessInfoPlistFile build/Debug-iphonesimulator/Live.app/Info.plist Live.plist    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Live.plist -genpkginfo /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app/Info.plist36"BD80EC26-8A07-4E02-8ECF-2011DE295011-
+
+CProcessPCH /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-bfqudqroxgqabbezokbnqqumdvaf/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s389620308.440876
+e389620309.295431
+r1
+xProcessPCH
+x/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-bfqudqroxgqabbezokbnqqumdvaf/MoSync_Prefix.pch.gch
+xMoSync_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch661671542239b741^bd394c552239b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/MoSync_Prefix.pch0000000000000000^2654"ProcessPCH /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-bfqudqroxgqabbezokbnqqumdvaf/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=60100 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources/i386 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-bfqudqroxgqabbezokbnqqumdvaf/MoSync_Prefix.pch.gch36"3DE4BACC-46BD-4588-8CDD-B45725AE0CF5-
+
+CProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-aqdxatwfrczozzdrvyadkbcfsmav/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s389620308.440848
+e389620309.560866
+r1
+xProcessPCH++
+x/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-aqdxatwfrczozzdrvyadkbcfsmav/MoSync_Prefix.pch.gch
+xMoSync_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pchbe1571542239b741^cd938f552239b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/MoSync_Prefix.pch0000000000000000^2679"ProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-aqdxatwfrczozzdrvyadkbcfsmav/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=60100 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources/i386 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-aqdxatwfrczozzdrvyadkbcfsmav/MoSync_Prefix.pch.gch36"DD5C0C4D-5A94-4ADA-B371-9BB45DB36B56-
+
+CProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-ctagkkiwiedifdclwcnpywsjvjcj/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42
+s389620308.440868
+e389620308.523401
+r1
+xProcessPCH++
+x/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-ctagkkiwiedifdclwcnpywsjvjcj/MoSync_Prefix.pch.gch
+xMoSync_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pchf01571542239b741^3db689542239b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/MoSync_Prefix.pch0000000000000000^2615"ProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-ctagkkiwiedifdclwcnpywsjvjcj/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=60100 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources/i386 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Live.build/Debug-iphonesimulator/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-ctagkkiwiedifdclwcnpywsjvjcj/MoSync_Prefix.pch.gch36"04AFD014-FB89-4727-9F99-72512D9BC93A-
+
+CTouch /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app
+s389620313.798184
+e389620313.810734
+r1
+xTouch
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Touch /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app567fcc592239b741^d28ecf592239b741^---0#0#0#--482"Touch build/Debug-iphonesimulator/Live.app    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone_simulator/package/xcode-proj/build/Debug-iphonesimulator/Live.app36"DF41C2FD-C7FF-4441-92F4-688BDF00E0FA-
+
