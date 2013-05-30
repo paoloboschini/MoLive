@@ -1,0 +1,593 @@
+TLive
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Info.plist Live.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/Live.app/ResourceRules.plist
+cCpResource resources build/Debug-iphoneos/Live.app/resources
+cCopyPNGFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon-72.png Icon-72.png
+cCpResource data_section.bin build/Debug-iphoneos/Live.app/data_section.bin
+cCopyPNGFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon.png Icon.png
+cCopyPNGFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Default-568h@2x.png Default-568h@2x.png
+cProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-dsmdujvvikghkrdjltglwbsddglh/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-colqihtoatwpwvanfwhqqfazlbqa/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-brfncvpfdicfdocbpzhcwyhbfkhy/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/rebuild.build.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/main.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncViewController.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncAppDelegate.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+cLd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live normal armv7
+cGenerateDSYMFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app.dSYM /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live
+cProcessProductPackaging "/Users/paoloboschini/Library/MobileDevice/Provisioning Profiles/5EAC8084-8D92-499B-9ED6-EEDA9822B7B7.mobileprovision" /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/paoloboschini/Library/MobileDevice/Provisioning Profiles/5EAC8084-8D92-499B-9ED6-EEDA9822B7B7.mobileprovision" /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/embedded.mobileprovision
+cTouch /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live.xcent
+cCodeSign /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c00000000514304080000000000000110
+t1363346440
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c00000000510BFF6B00000000000001A7
+t1359740779
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c00000000510BFF6B00000000000001E5
+t1359740779
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000510BFF6D000000000036CDF0
+t1359740781
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000510BFF6D000000000014A320
+t1359740781
+s1352480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000510BFF6E00000000006B1F40
+t1359740782
+s7020352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510BFF6E0000000000322700
+t1359740782
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000510BFF6E0000000000114910
+t1359740782
+s1132816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000510BFF6E00000000001694D0
+t1359740782
+s1479888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c00000000510BFF6E00000000001CC730
+t1359740782
+s1886000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000510BFF6E0000000000041310
+t1359740782
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+c00000000510BFF6E0000000000278AD0
+t1359740782
+s2591440
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510BFF6F000000000062AD10
+t1359740783
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000510BFF6E00000000000015F7
+t1359740782
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000510BFF6F00000000001AABB0
+t1359740783
+s1747888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000510BFF6F00000000005807F0
+t1359740783
+s5769200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000510BFF6F00000000001DE790
+t1359740783
+s1959824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000510BFF6F000000000012C360
+t1359740783
+s1229664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000510BFF6F0000000000024190
+t1359740783
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000510BFF7000000000003596B0
+t1359740784
+s3511984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c00000000510BFF7000000000000495D0
+t1359740784
+s300496
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000510BFF7000000000000CAFB0
+t1359740784
+s831408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510BFF700000000000000E8D
+t1359740784
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510BFF7300000000011BCDF0
+t1359740787
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c00000000510BFF6E000000000005E840
+t1359740782
+s387136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libsqlite3.dylib
+c00000000510BFF770000000000121470
+t1359740791
+s1184880
+
+N/Users/paoloboschini/Library/MobileDevice/Provisioning Profiles/5EAC8084-8D92-499B-9ED6-EEDA9822B7B7.mobileprovision
+c000000005114C3B200000000000024AE
+t1360315314
+s9390
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.h
+c0000000051A50AEA00000000000003EC
+t1369770730
+s1004
+i<UIKit/UIKit.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+c0000000051A50AEA0000000000001820
+t1369770730
+s6176
+i"MoSyncAppDelegate.h"
+i"MoSyncViewController.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.h
+c0000000051A50AEA0000000000000330
+t1369770730
+s816
+i<UIKit/UIKit.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+c0000000051A50AEA0000000000001205
+t1369770730
+s4613
+i"MoSyncViewController.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/converters.h
+c0000000051A50AEA00000000000006BD
+t1369770730
+s1725
+i<helpers/maapi_defs.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/helpers/cpp_defs.h
+c0000000051A50AEA000000000002EEA8
+t1369770730
+s192168
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/helpers/cpp_maapi.h
+c0000000051A50AEA0000000000008C70
+t1369770730
+s35952
+i"maapi_defs.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/helpers/maapi_defs.h
+c0000000051A50AEA0000000000000809
+t1369770730
+s2057
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/mstypeinfo.h
+c0000000051A50AEA00000000000006F3
+t1369770730
+s1779
+i<base/Syscall.h>
+i<helpers/cpp_defs.h>
+i<helpers/cpp_maapi.h>
+i"syscall_static_cpp.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+c0000000051A50AEA0000000000310FD0
+t1369770730
+s3215312
+i"mstypeinfo.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/syscall_static_cpp.h
+c0000000051A50AEA0000000000004A1F
+t1369770730
+s18975
+i<helpers/maapi_defs.h>
+i"converters.h"
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Default-568h@2x.png
+c0000000051A50AEA00000000000048A2
+t1369770730
+s18594
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon-72.png
+c0000000051A50AED000000000000090A
+t1369770733
+s2314
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon.png
+c0000000051A50AEC0000000000000719
+t1369770732
+s1817
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon@2x.png
+c0000000051A50AEF0000000000000D3E
+t1369770735
+s3390
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+c0000000051A50AEA0000000000000285
+t1369770730
+s645
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app.dSYM
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon-72.png
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon.png
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon@2x.png
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Info.plist
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/PkgInfo
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/ResourceRules.plist
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/data_section.bin
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/resources
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live.xcent
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/Live.LinkFileList
+c0000000051A50AF1000000000000027E
+t1369770737
+s638
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncAppDelegate.o
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncViewController.o
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/rebuild.build.o
+t2
+s0
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/data_section.bin
+c0000000051A50AEA00000000000096C4
+t1369770730
+s38596
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/libs/Release-iphonesimulator/libMoSyncLib.a
+c0000000051A50AEA00000000005BE470
+t1369770730
+s6022256
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/main.m
+c0000000051A50AEA00000000000003D7
+t1369770730
+s983
+i<UIKit/UIKit.h>
+
+N/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/resources
+c0000000051A50AEA0000000000056E8D
+t1369770730
+s355981
+
+N/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-brfncvpfdicfdocbpzhcwyhbfkhy/MoSync_Prefix.pch.gch
+t1368783637
+s2097520
+
+N/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-colqihtoatwpwvanfwhqqfazlbqa/MoSync_Prefix.pch.gch
+t1368783638
+s15361936
+
+N/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-dsmdujvvikghkrdjltglwbsddglh/MoSync_Prefix.pch.gch
+t1368783638
+s17110832
+
+NLive.plist
+c0000000051A50AEA00000000000005F4
+t1369770730
+s1524
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies438f4c704255b741^897d32714255b741^---0#1#0#--18"Check dependencies36"744C11AB-E59C-4FD0-B442-F0C5C5B7F4D9-
+
+CCodeSign /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app
+s391463546.663202
+e391463547.045421
+r1
+xCodeSign
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"CodeSign build/Debug-iphoneos/Live.appdee6a97a4255b741^01a30b7b4255b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/0000000000000000^930"CodeSign build/Debug-iphoneos/Live.app    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign b184e1ebf4f210e2ca10fc3447dab645e215a86a --resource-rules=/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/ResourceRules.plist --entitlements /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live.xcent /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app36"A83A22FC-454E-4516-AD5A-D0A9DBC06304-
+
+CCompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncAppDelegate.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+s391463538.645229
+e391463538.814568
+r1
+xCompileC
+xbuild/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncAppDelegate.o
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm5853a5724255b741^8388d0724255b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm0000000000000000^2503"CompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncAppDelegate.o Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources/armv7 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -include /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-dsmdujvvikghkrdjltglwbsddglh/MoSync_Prefix.pch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncAppDelegate.o36"399B284C-764C-4B4C-AF62-22BFC75E91AF-
+
+CCompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncViewController.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+s391463538.645226
+e391463538.806425
+r1
+xCompileC
+xbuild/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncViewController.o
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm1a69a5724255b741^e370ce724255b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm0000000000000000^2515"CompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncViewController.o Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources/armv7 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -include /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-dsmdujvvikghkrdjltglwbsddglh/MoSync_Prefix.pch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/MoSyncViewController.o36"88E0960D-9CBE-4A9D-A0CD-0A2A1B136EEA-
+
+CCompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/main.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s391463538.384469
+e391463538.509218
+r1
+xCompileC
+xbuild/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/main.o
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/main.me69662724255b741^496982724255b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/main.m0000000000000000^2410"CompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -gdwarf-2 -fvisibility=hidden -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources/armv7 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -include /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-colqihtoatwpwvanfwhqqfazlbqa/MoSync_Prefix.pch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/main.m -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/main.o36"28596E5B-B515-4624-B5B1-F80936A1E64B-
+
+CCompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/rebuild.build.o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s391463537.534332
+e391463545.784657
+r1
+xCompileC
+xbuild/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/rebuild.build.o
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cppefe788714255b741^d3dec8794255b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp0000000000000000^2469"CompileC build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/rebuild.build.o Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources/armv7 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -include /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-brfncvpfdicfdocbpzhcwyhbfkhy/MoSync_Prefix.pch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/rebuild.build.o36"536D1172-0D48-46AC-84B4-B01EE6720815-
+
+CCopyPNGFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Default-568h@2x.png Default-568h@2x.png
+s391463537.232904
+e391463537.402782
+r1
+xCopyPNGFile
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Default-568h@2x.png
+xDefault-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"CopyPNGFile build/Debug-iphoneos/Live.app/Default-568h@2x.png Default-568h@2x.pngc3bc3b714255b741^a81c67714255b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Default-568h@2x.png0000000000000000^706"CopyPNGFile "build/Debug-iphoneos/Live.app/Default-568h@2x.png" "Default-568h@2x.png"    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Default-568h@2x.png" "/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Default-568h@2x.png"36"EE50D793-5796-4878-886D-A99D37263860-
+
+CCopyPNGFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon-72.png Icon-72.png
+s391463537.224929
+e391463537.347810
+r1
+xCopyPNGFile
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon-72.png
+xIcon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CopyPNGFile build/Debug-iphoneos/Live.app/Icon-72.png Icon-72.png4ed539714255b741^852659714255b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon-72.png0000000000000000^666"CopyPNGFile build/Debug-iphoneos/Live.app/Icon-72.png Icon-72.png    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon-72.png /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon-72.png36"C8DFDA44-DF5C-44B5-B1B9-7CC9678CC711-
+
+CCopyPNGFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon.png Icon.png
+s391463537.224972
+e391463537.346122
+r1
+xCopyPNGFile
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon.png
+xIcon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"CopyPNGFile build/Debug-iphoneos/Live.app/Icon.png Icon.png8cd639714255b741^e7a758714255b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon.png0000000000000000^654"CopyPNGFile build/Debug-iphoneos/Live.app/Icon.png Icon.png    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon.png /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon.png36"4A5804CC-3265-4F35-A1C8-5C47E7EEB2C3-
+
+CCopyPNGFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon@2x.png Icon@2x.png
+s391463537.228814
+e391463537.355872
+r1
+xCopyPNGFile
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon@2x.png
+xIcon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CopyPNGFile build/Debug-iphoneos/Live.app/Icon@2x.png Icon@2x.pngbcaf3a714255b741^e5255b714255b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon@2x.png0000000000000000^674"CopyPNGFile "build/Debug-iphoneos/Live.app/Icon@2x.png" "Icon@2x.png"    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Icon@2x.png" "/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Icon@2x.png"36"871F0644-31E6-467D-BBA9-9F7DD2758487-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/Live.app/ResourceRules.plist
+s391463537.210159
+e391463537.215501
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Live.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/Live.app/ResourceRules.plist4c1b36714255b741^ca3337714255b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/ResourceRules.plist0000000c4f001042^800"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/Live.app/ResourceRules.plist    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app36"E1905310-F53C-47F5-83D5-1ABAA89A9DA6-
+
+CCpResource data_section.bin build/Debug-iphoneos/Live.app/data_section.bin
+s391463537.224934
+e391463537.227597
+r1
+xCpResource
+xdata_section.bin
+xbuild/Debug-iphoneos/Live.app/data_section.bin
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Debug-iphoneos/Live.app/data_section.bin7fc239714255b741^cc433a714255b741^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/data_section.bin000000000080d041^666"CpResource data_section.bin build/Debug-iphoneos/Live.app/data_section.bin    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/data_section.bin /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app36"C2312F71-B0D7-4181-B51B-14B51E557747-
+
+CCpResource resources build/Debug-iphoneos/Live.app/resources
+s391463537.224928
+e391463537.231718
+r1
+xCpResource
+xresources
+xbuild/Debug-iphoneos/Live.app/resources
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/Debug-iphoneos/Live.app/resourcesb8c839714255b741^9e5c3b714255b741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/resources000000000080d041^645"CpResource resources build/Debug-iphoneos/Live.app/resources    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/resources /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app36"1935C540-16A4-4B74-9EA7-41DD929BE4A9-
+
+CGenerateDSYMFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app.dSYM /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live
+s391463546.244174
+e391463546.599198
+r1
+xGenerateDSYMFile
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app.dSYM
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Generate /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app.dSYM8c9f3e7a4255b741^f964997a4255b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app.dSYM000000000080d041^692"GenerateDSYMFile build/Debug-iphoneos/Live.app.dSYM build/Debug-iphoneos/Live.app/Live    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app.dSYM36"E0F40C7F-1733-4EBB-8926-A4F165090A78-
+
+CLd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live normal armv7
+s391463545.791656
+e391463546.237190
+r1
+xLd
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Link /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Livee7c4ca794255b741^5ab83c7a4255b741^---0#0#0#--1760"Ld build/Debug-iphoneos/Live.app/Live normal armv7    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -Llibs/Debug-iphoneos -L/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/libs/Release-iphonesimulator -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -filelist /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Objects-normal/armv7/Live.LinkFileList -dead_strip -ObjC -miphoneos-version-min=3.0 -framework CoreVideo -framework StoreKit -framework CoreMedia -weak_framework MobileCoreServices -weak_framework iAd -framework MediaPlayer -weak_framework EventKit -weak_framework CoreMotion -framework AddressBook -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -weak_framework AVFoundation -framework CoreLocation -lMoSyncLib -framework OpenGLES -framework QuartzCore -weak_framework MessageUI -lsqlite3 -framework SystemConfiguration -framework MapKit -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Live36"EF80CFE0-DF53-4A98-A1FD-65C1D7C5F7C0-
+
+CProcessInfoPlistFile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Info.plist Live.plist
+s391463537.210152
+e391463537.217233
+r1
+xProcessInfoPlistFile
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Info.plist
+xLive.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Live.plistd21b36714255b741^fa9c37714255b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/Live.plist0000000000000000^842"ProcessInfoPlistFile build/Debug-iphoneos/Live.app/Info.plist Live.plist    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Live.plist -genpkginfo /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/ResourceRules.plist -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/Info.plist36"D7290EAB-4E75-4773-8EA9-092838D5A76F-
+
+CProcessPCH /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-colqihtoatwpwvanfwhqqfazlbqa/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s391463537.410533
+e391463538.377587
+r1
+xProcessPCH
+x/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-colqihtoatwpwvanfwhqqfazlbqa/MoSync_Prefix.pch.gch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pchf85569714255b741^bda960724255b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^2374"ProcessPCH /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-colqihtoatwpwvanfwhqqfazlbqa/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -gdwarf-2 -fvisibility=hidden -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources/armv7 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-colqihtoatwpwvanfwhqqfazlbqa/MoSync_Prefix.pch.gch36"A3FBA5D5-2F90-456F-91B7-50EB880F59B8-
+
+CProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-brfncvpfdicfdocbpzhcwyhbfkhy/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvmgcc42
+s391463537.410945
+e391463537.527472
+r1
+xProcessPCH++
+x/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-brfncvpfdicfdocbpzhcwyhbfkhy/MoSync_Prefix.pch.gch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pcha45569714255b741^4a0787714255b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^2379"ProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-brfncvpfdicfdocbpzhcwyhbfkhy/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources/armv7 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-brfncvpfdicfdocbpzhcwyhbfkhy/MoSync_Prefix.pch.gch36"32C69CB4-741A-487F-9E74-A198411433B6-
+
+CProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-dsmdujvvikghkrdjltglwbsddglh/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+s391463537.410493
+e391463538.638333
+r1
+xProcessPCH++
+x/var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-dsmdujvvikghkrdjltglwbsddglh/MoSync_Prefix.pch.gch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pchb83d69714255b741^f168a3724255b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^2399"ProcessPCH++ /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-dsmdujvvikghkrdjltglwbsddglh/MoSync_Prefix.pch.gch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-generated-files.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-own-target-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-all-target-headers.hmap -iquote /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live-project-headers.hmap -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/include -IClasses -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources/armv7 -I/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/DerivedSources -F/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/vb/xywwf0t910b0ypzj01w48khh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MoSync_Prefix-dsmdujvvikghkrdjltglwbsddglh/MoSync_Prefix.pch.gch36"15E4565B-A61E-417A-9D3C-ABAF02E9EA44-
+
+CProcessProductPackaging "/Users/paoloboschini/Library/MobileDevice/Provisioning Profiles/5EAC8084-8D92-499B-9ED6-EEDA9822B7B7.mobileprovision" /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/embedded.mobileprovision
+s391463546.621681
+e391463546.625403
+r1
+xProcessProductPackaging
+x/Users/paoloboschini/Library/MobileDevice/Provisioning Profiles/5EAC8084-8D92-499B-9ED6-EEDA9822B7B7.mobileprovision
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection197"ProcessProductPackaging "/Users/paoloboschini/Library/MobileDevice/Provisioning Profiles/5EAC8084-8D92-499B-9ED6-EEDA9822B7B7.mobileprovision" build/Debug-iphoneos/Live.app/embedded.mobileprovision003b9f7a4255b741^d219a07a4255b741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/embedded.mobileprovision0000000000000000^764"ProcessProductPackaging "/Users/paoloboschini/Library/MobileDevice/Provisioning Profiles/5EAC8084-8D92-499B-9ED6-EEDA9822B7B7.mobileprovision" build/Debug-iphoneos/Live.app/embedded.mobileprovision    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/paoloboschini/Library/MobileDevice/Provisioning Profiles/5EAC8084-8D92-499B-9ED6-EEDA9822B7B7.mobileprovision" -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app/embedded.mobileprovision36"7510E2A7-5D05-408A-9888-5CA19D9C2561-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live.xcent
+s391463546.651352
+e391463546.655176
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection198"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/Live.build/Debug-iphoneos/Live.build/Live.xcenta2d4a67a4255b741^aeb9a77a4255b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live.xcent000000000080d041^792"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/Live.build/Debug-iphoneos/Live.build/Live.xcent    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Live.build/Debug-iphoneos/Live.build/Live.xcent36"C0736C2D-5C20-4345-8B1C-40513618DA03-
+
+CTouch /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app
+s391463546.633590
+e391463546.643182
+r1
+xTouch
+x/Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Touch /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.appbb43a27a4255b741^83a7a47a4255b741^---0#0#0#--441"Touch build/Debug-iphoneos/Live.app    cd /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/paoloboschini/workspace/Live/Output/Debug/iOS/iPhone/package/xcode-proj/build/Debug-iphoneos/Live.app36"17D449C4-20C9-4027-BD2E-80404EF60D0B-
+
