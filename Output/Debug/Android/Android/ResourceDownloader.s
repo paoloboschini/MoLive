@@ -379,16 +379,18 @@ Lscope0:
 Lscope1:
 .data
 LC0:
-	.ascii "Resource data is NULL, could not download resource\0"
-LC2:
-	.ascii "Resource not saved\0"
+	.ascii "---> \0"
 LC1:
-	.ascii "mosync.bridge.reply(%s, '%s')\0"
-LC3:
-	.ascii "Resource data is valid, the resource was downloaded\0"
-LC4:
 	.ascii "resources/\0"
+LC2:
+	.ascii "Resource data is NULL, could not download resource\0"
+LC4:
+	.ascii "Resource not saved\0"
+LC3:
+	.ascii "mosync.bridge.reply(%s, '%s')\0"
 LC5:
+	.ascii "Resource data is valid, the resource was downloaded\0"
+LC6:
 	.ascii "Resource saved\0"
 .code
 	.stabs	"_ZN18ResourceDownloader18onDownloadCompleteEi:F(0,6)",36,0,20,__ZN18ResourceDownloader18onDownloadCompleteEi
@@ -399,9 +401,9 @@ LC5:
 .func __ZN18ResourceDownloader18onDownloadCompleteEi, 2, void
 	.line 20
 	push rt,d2
-	sub  sp,#0x220
+	sub  sp,#0x22c
 	ld   fr,sp
-	add  fr,#0x234
+	add  fr,#0x240
 	ld   [fr,-24],i0
 	ld   [fr,-28],i1
 	.dlab LBB4
@@ -411,46 +413,110 @@ LC5:
 	add  r14,#0xffffffdc
 	ld   i0,r14
 	call &__ZN8Wormhole8FileUtilC1Ev
-	.dlab LBB6
+	.line 23
+	ld   d1,fr
+	add  d1,#0xffffffd8
+	ld   d2,fr
+	add  d2,#0xffffffd4
+	ld   d0,fr
+	add  d0,#0xffffffd0
+	ld   r14,fr
+	add  r14,#0xffffffcc
+	ld   r0,fr
+	add  r0,#0xffffffdc
+	ld   i0,r14
+	ld   i1,r0
+	call &__ZN8Wormhole8FileUtil12getLocalPathEv
+	ld   r14,fr
+	add  r14,#0xffffffcc
+	ld   i0,d0
+	ld   i1,#LC0
+	ld   i2,r14
+	call &__ZN6MAUtilplIcEENS_11BasicStringIT_EEPKS2_RKS3_
+	ld   d0,fr
+	add  d0,#0xffffffd0
+	ld   r14,fr
+	add  r14,#0xffffffc8
+	ld   i0,r14
+	ld   i1,#LC1
+	call &__ZN6MAUtil11BasicStringIcEC1EPKc
+	ld   r14,fr
+	add  r14,#0xffffffc8
+	ld   i0,d2
+	ld   i1,d0
+	ld   i2,r14
+	call &__ZNK6MAUtil11BasicStringIcEplERKS1_
+	ld   r14,fr
+	add  r14,#0xffffffd4
+	ld   r0,[fr,-24]
+	add  r0,#0x30
+	ld   i0,d1
+	ld   i1,r14
+	ld   i2,r0
+	call &__ZNK6MAUtil11BasicStringIcEplERKS1_
+	ld   r14,fr
+	add  r14,#0xffffffd4
+	ld   i0,r14
+	call &__ZN6MAUtil11BasicStringIcED1Ev
+	ld   r14,fr
+	add  r14,#0xffffffc8
+	ld   i0,r14
+	call &__ZN6MAUtil11BasicStringIcED1Ev
+	ld   r14,fr
+	add  r14,#0xffffffd0
+	ld   i0,r14
+	call &__ZN6MAUtil11BasicStringIcED1Ev
+	ld   r14,fr
+	add  r14,#0xffffffcc
+	ld   i0,r14
+	call &__ZN6MAUtil11BasicStringIcED1Ev
 	.line 24
+	ld   r14,fr
+	add  r14,#0xffffffd8
+	ld   i0,r14
+	call &__ZNK6MAUtil11BasicStringIcE5c_strEv
+	ld   i0,r14
+	call &_lprintfln
+	.dlab LBB6
+	.line 27
 	ld   r0,[fr,-28]
 	ld   r14,#0x0
 	jc   ne,r0,r14,#L4
 	.dlab LBB7
-	.line 25
-	ld   i0,#LC0
-	call &_printf
 	.line 28
+	ld   i0,#LC2
+	call &_printf
+	.line 31
 	ld   r14,fr
-	add  r14,#0xfffffdd8
+	add  r14,#0xffffffc8
 	ld   r0,fr
-	add  r0,#0xfffffddc
+	add  r0,#0xfffffdc8
 	ld   i0,r14
 	ld   i1,r0
 	call &__ZN6MAUtil11BasicStringIcEC1EPKc
-	.line 29
+	.line 32
 	ld   r14,[fr,-24]
 	add  r14,#0x34
 	ld   i0,r14
 	call &__ZNK6MAUtil11BasicStringIcE5c_strEv
 	ld   r0,fr
-	add  r0,#0xfffffddc
+	add  r0,#0xfffffdc8
 	ld   [sp],r14
-	ld   r14,#LC2
+	ld   r14,#LC4
 	ld   [sp,4],r14
 	ld   i0,r0
-	ld   i1,#LC1
+	ld   i1,#LC3
 	call &_sprintf
-	.line 30
+	.line 33
 	ld   r14,fr
-	add  r14,#0xfffffdd4
+	add  r14,#0xffffffcc
 	ld   r0,fr
-	add  r0,#0xfffffddc
+	add  r0,#0xfffffdc8
 	ld   i0,r14
 	ld   i1,r0
 	call &__ZN6MAUtil11BasicStringIcEC1EPKc
 	ld   r1,fr
-	add  r1,#0xfffffdd4
+	add  r1,#0xffffffcc
 	ld   r14,[fr,-24]
 	ld   r14,[r14,56]
 	ld   r14,[r14]
@@ -461,65 +527,65 @@ LC5:
 	ld   i1,r1
 	call r14
 	ld   r14,fr
-	add  r14,#0xfffffdd4
+	add  r14,#0xffffffcc
 	ld   i0,r14
 	call &__ZN6MAUtil11BasicStringIcED1Ev
 	ld   r14,fr
-	add  r14,#0xfffffdd8
+	add  r14,#0xffffffc8
 	ld   i0,r14
 	call &__ZN6MAUtil11BasicStringIcED1Ev
 	.dlab LBE7
 	jp   #L5
 L4:
 	.dlab LBB8
-	.line 32
-	ld   i0,#LC3
+	.line 35
+	ld   i0,#LC5
 	call &_printf
-	.line 34
+	.line 37
 	ld   d1,fr
-	add  d1,#0xfffffdd4
+	add  d1,#0xfffffdc8
 	ld   d2,fr
-	add  d2,#0xfffffdd8
+	add  d2,#0xfffffdcc
 	ld   r14,fr
-	add  r14,#0xfffffddc
+	add  r14,#0xfffffdd0
 	ld   r0,fr
 	add  r0,#0xffffffdc
 	ld   i0,r14
 	ld   i1,r0
 	call &__ZN8Wormhole8FileUtil12getLocalPathEv
 	ld   d0,fr
-	add  d0,#0xfffffddc
+	add  d0,#0xfffffdd0
 	ld   r14,fr
-	add  r14,#0xfffffde0
+	add  r14,#0xfffffdd4
 	ld   i0,r14
-	ld   i1,#LC4
+	ld   i1,#LC1
 	call &__ZN6MAUtil11BasicStringIcEC1EPKc
 	ld   r14,fr
-	add  r14,#0xfffffde0
+	add  r14,#0xfffffdd4
 	ld   i0,d2
 	ld   i1,d0
 	ld   i2,r14
 	call &__ZNK6MAUtil11BasicStringIcEplERKS1_
 	ld   d0,fr
-	add  d0,#0xfffffdd8
+	add  d0,#0xfffffdcc
 	ld   r14,[fr,-24]
 	add  r14,#0x30
 	ld   i0,r14
 	call &__ZNK6MAUtil11BasicStringIcE5c_strEv
 	ld   r0,r14
 	ld   r14,fr
-	add  r14,#0xfffffde4
+	add  r14,#0xfffffdd8
 	ld   i0,r14
 	ld   i1,r0
 	call &__ZN6MAUtil11BasicStringIcEC1EPKc
 	ld   r14,fr
-	add  r14,#0xfffffde4
+	add  r14,#0xfffffdd8
 	ld   i0,d1
 	ld   i1,d0
 	ld   i2,r14
 	call &__ZNK6MAUtil11BasicStringIcEplERKS1_
 	ld   r0,fr
-	add  r0,#0xfffffdd4
+	add  r0,#0xfffffdc8
 	ld   r14,fr
 	add  r14,#0xffffffdc
 	ld   i0,r14
@@ -527,11 +593,7 @@ L4:
 	ld   i2,[fr,-28]
 	call &__ZN8Wormhole8FileUtil15writeDataToFileERKN6MAUtil11BasicStringIcEEi
 	ld   r14,fr
-	add  r14,#0xfffffdd4
-	ld   i0,r14
-	call &__ZN6MAUtil11BasicStringIcED1Ev
-	ld   r14,fr
-	add  r14,#0xfffffde4
+	add  r14,#0xfffffdc8
 	ld   i0,r14
 	call &__ZN6MAUtil11BasicStringIcED1Ev
 	ld   r14,fr
@@ -539,36 +601,40 @@ L4:
 	ld   i0,r14
 	call &__ZN6MAUtil11BasicStringIcED1Ev
 	ld   r14,fr
-	add  r14,#0xfffffde0
+	add  r14,#0xfffffdcc
 	ld   i0,r14
 	call &__ZN6MAUtil11BasicStringIcED1Ev
 	ld   r14,fr
-	add  r14,#0xfffffddc
+	add  r14,#0xfffffdd4
 	ld   i0,r14
 	call &__ZN6MAUtil11BasicStringIcED1Ev
-	.line 38
+	ld   r14,fr
+	add  r14,#0xfffffdd0
+	ld   i0,r14
+	call &__ZN6MAUtil11BasicStringIcED1Ev
+	.line 41
 	ld   r14,[fr,-24]
 	add  r14,#0x34
 	ld   i0,r14
 	call &__ZNK6MAUtil11BasicStringIcE5c_strEv
 	ld   r0,fr
-	add  r0,#0xfffffdd4
+	add  r0,#0xfffffdc8
 	ld   [sp],r14
-	ld   r14,#LC5
+	ld   r14,#LC6
 	ld   [sp,4],r14
 	ld   i0,r0
-	ld   i1,#LC1
+	ld   i1,#LC3
 	call &_sprintf
-	.line 39
+	.line 42
 	ld   r14,fr
-	add  r14,#0xffffffd4
+	add  r14,#0xffffffc8
 	ld   r0,fr
-	add  r0,#0xfffffdd4
+	add  r0,#0xfffffdc8
 	ld   i0,r14
 	ld   i1,r0
 	call &__ZN6MAUtil11BasicStringIcEC1EPKc
 	ld   r1,fr
-	add  r1,#0xffffffd4
+	add  r1,#0xffffffc8
 	ld   r14,[fr,-24]
 	ld   r14,[r14,56]
 	ld   r14,[r14]
@@ -579,13 +645,13 @@ L4:
 	ld   i1,r1
 	call r14
 	ld   r14,fr
-	add  r14,#0xffffffd4
+	add  r14,#0xffffffc8
 	ld   i0,r14
 	call &__ZN6MAUtil11BasicStringIcED1Ev
 L5:
 	.dlab LBE8
 	.dlab LBE6
-	.line 43
+	.line 46
 	ld   r0,[fr,-24]
 	ld   r14,#0x0
 	jc   eq,r0,r14,#L7
@@ -597,26 +663,71 @@ L5:
 	call r14
 L7:
 	ld   r14,fr
+	add  r14,#0xffffffd8
+	ld   i0,r14
+	call &__ZN6MAUtil11BasicStringIcED1Ev
+	ld   r14,fr
 	add  r14,#0xffffffdc
 	ld   i0,r14
 	call &__ZN8Wormhole8FileUtilD1Ev
 	.dlab LBE5
 	.dlab LBE4
-	.line 44
-	add  sp,#0x220
+	.line 47
+	add  sp,#0x22c
 	pop  rt,d2
 	ret
 	.stabs	"fileUtil:(0,30)=xsFileUtil:",128,0,22,-36
+	.stabs	"_:(9,1)",128,0,23,-40
 	.stabn	192,0,0,LBB5-__ZN18ResourceDownloader18onDownloadCompleteEi
-	.stabs	"script:(0,31)=ar(4,57);0;511;(0,19)",128,0,27,-548
-	.stabs	"s:(9,1)",128,0,28,-552
+	.stabs	"script:(0,31)=ar(4,57);0;511;(0,19)",128,0,30,-568
+	.stabs	"s:(9,1)",128,0,31,-56
 	.stabn	192,0,0,LBB7-__ZN18ResourceDownloader18onDownloadCompleteEi
 	.stabn	224,0,0,LBE7-__ZN18ResourceDownloader18onDownloadCompleteEi
-	.stabs	"script:(0,31)",128,0,37,-556
+	.stabs	"script:(0,31)",128,0,40,-568
 	.stabn	192,0,0,LBB8-__ZN18ResourceDownloader18onDownloadCompleteEi
 	.stabn	224,0,0,LBE8-__ZN18ResourceDownloader18onDownloadCompleteEi
 	.stabn	224,0,0,LBE5-__ZN18ResourceDownloader18onDownloadCompleteEi
 Lscope2:
+	.stabs	"_ZN6MAUtilplIcEENS_11BasicStringIT_EEPKS2_RKS3_:f(9,2)",36,0,395,__ZN6MAUtilplIcEENS_11BasicStringIT_EEPKS2_RKS3_
+	.stabs	"c:p(16,7)",160,0,395,-16
+	.stabs	"s:p(16,11)",160,0,395,-20
+
+.func __ZN6MAUtilplIcEENS_11BasicStringIT_EEPKS2_RKS3_, 3, int
+	.stabs	"/Applications/MoSync/include/MAUtil/String.h",132,0,0,Ltext1
+Ltext1:
+	.line 395
+	push rt,d0
+	sub  sp,#0xc
+	ld   fr,sp
+	add  fr,#0x18
+	ld   d0,i0
+	ld   [fr,-16],i1
+	ld   [fr,-20],i2
+	.dlab LBB9
+	.line 396
+	ld   r14,fr
+	add  r14,#0xffffffe8
+	ld   i0,r14
+	ld   i1,[fr,-16]
+	call &__ZN6MAUtil11BasicStringIcEC1EPKc
+	ld   r14,fr
+	add  r14,#0xffffffe8
+	ld   i0,d0
+	ld   i1,r14
+	ld   i2,[fr,-20]
+	call &__ZNK6MAUtil11BasicStringIcEplERKS1_
+	.dlab LBB10
+	ld   r14,fr
+	add  r14,#0xffffffe8
+	ld   i0,r14
+	call &__ZN6MAUtil11BasicStringIcED1Ev
+	.dlab LBE10
+	.dlab LBE9
+	ld   r14,d0
+	add  sp,#0xc
+	pop  rt,d0
+	ret
+Lscope3:
 	.global	__ZTV18ResourceDownloader
 .data
 	.align 4
@@ -643,18 +754,20 @@ __ZTV18ResourceDownloader:
 	.stabs	"HttpConnectionListener:Tt(0,41)=s4!1,020,(0,42)=xsConnectionListener:;httpFinished::(0,43)=#(0,41),(0,6),(0,44)=*(0,41),(0,45)=*(0,46)=xsHttpConnection:,(0,3),(0,6);:_ZN6MAUtil22HttpConnectionListener12httpFinishedEPNS_14HttpConnectionEi;2A*4;(0,41);;operator=::(0,47)=#(0,41),(0,48)=&(0,41),(0,44),(0,49)=&(0,50)=k(0,41),(0,6);:_ZN6MAUtil22HttpConnectionListeneraSERKS0_;2A.;__base_ctor::(0,51)=#(0,41),(0,6),(0,44),(0,49),(0,6);:_ZN6MAUtil22HttpConnectionListenerC2ERKS0_;2A.;__comp_ctor::(0,51):_ZN6MAUtil22HttpConnectionListenerC1ERKS0_;2A.;__base_ctor::(0,52)=#(0,41),(0,6),(0,44),(0,6);:_ZN6MAUtil22HttpConnectionListenerC2Ev;2A.;__comp_ctor::(0,52):_ZN6MAUtil22HttpConnectionListenerC1Ev;2A.;;~%(0,42);",128,0,219,0
 	.stabs	"ConnListener:Tt(6,168)=s8_vptr$ConnListener:(0,53)=*(0,1),0,32;_mConn:/0(4,10),32,32;connEvent::(0,54)=#(6,168),(0,6),(6,167),(0,55)=&(0,56)=k(4,103),(0,6);:_ZN6MAUtil12ConnListener9connEventERK15MAConnEventData;2A*0;(6,168);;operator=::(0,57)=#(6,168),(0,58)=&(6,168),(6,167),(0,59)=&(0,60)=k(6,168),(0,6);:_ZN6MAUtil12ConnListeneraSERKS0_;2A.;__base_ctor::(0,61)=#(6,168),(0,6),(6,167),(0,59),(0,6);:_ZN6MAUtil12ConnListenerC2ERKS0_;2A.;__comp_ctor::(0,61):_ZN6MAUtil12ConnListenerC1ERKS0_;2A.;__base_ctor::(0,62)=#(6,168),(0,6),(6,167),(0,6);:_ZN6MAUtil12ConnListenerC2Ev;2A.;__comp_ctor::(0,62):_ZN6MAUtil12ConnListenerC1Ev;2A.;;~%(6,168);",128,0,100,0
 .code
-	.stabs	"_ZN18ResourceDownloaderD0Ev:f(0,6)",36,0,43,__ZN18ResourceDownloaderD0Ev
+	.stabs	"_ZN18ResourceDownloaderD0Ev:f(0,6)",36,0,46,__ZN18ResourceDownloaderD0Ev
 	.stabs	"this:p(0,25)",160,0,23,-12
 
 .func __ZN18ResourceDownloaderD0Ev, 1, void
-	.line 43
+	.stabs	"/Users/paoloboschini/workspace/Live/ResourceDownloader.cpp",132,0,0,Ltext2
+Ltext2:
+	.line 46
 	push rt,fr
 	sub  sp,#0x4
 	ld   fr,sp
 	add  fr,#0xc
 	ld   [fr,-12],i0
-	.dlab LBB9
-	.line 43
+	.dlab LBB11
+	.line 46
 	ld   r14,[fr,-12]
 	ld   r0,#__ZTV18ResourceDownloader+8
 	ld   [r14],r0
@@ -672,32 +785,32 @@ __ZTV18ResourceDownloader:
 	call &__ZN6MAUtil11BasicStringIcED1Ev
 	ld   i0,[fr,-12]
 	call &__ZN8Wormhole25HighLevelBinaryDownloaderD2Ev
-	.dlab LBE9
+	.dlab LBE11
 	ld   r14,#0x1
 	and  r14,#0x3
 	ld   r0,r14
 	and  r0,#0xff  ; zero extend
 	ld   r14,#0x0
-	jc   eq,r0,r14,#L8
+	jc   eq,r0,r14,#L9
 	ld   i0,[fr,-12]
 	call &__ZdlPv
-L8:
+L9:
 	add  sp,#0x4
 	pop  rt,fr
 	ret
-Lscope3:
-	.stabs	"_ZN18ResourceDownloaderD1Ev:f(0,6)",36,0,43,__ZN18ResourceDownloaderD1Ev
+Lscope4:
+	.stabs	"_ZN18ResourceDownloaderD1Ev:f(0,6)",36,0,46,__ZN18ResourceDownloaderD1Ev
 	.stabs	"this:p(0,25)",160,0,23,-12
 
 .func __ZN18ResourceDownloaderD1Ev, 1, void
-	.line 43
+	.line 46
 	push rt,fr
 	sub  sp,#0x4
 	ld   fr,sp
 	add  fr,#0xc
 	ld   [fr,-12],i0
-	.dlab LBB10
-	.line 43
+	.dlab LBB12
+	.line 46
 	ld   r14,[fr,-12]
 	ld   r0,#__ZTV18ResourceDownloader+8
 	ld   [r14],r0
@@ -715,20 +828,20 @@ Lscope3:
 	call &__ZN6MAUtil11BasicStringIcED1Ev
 	ld   i0,[fr,-12]
 	call &__ZN8Wormhole25HighLevelBinaryDownloaderD2Ev
-	.dlab LBE10
+	.dlab LBE12
 	ld   r14,#0x1
 	and  r14,#0x2
 	ld   r0,r14
 	and  r0,#0xff  ; zero extend
 	ld   r14,#0x0
-	jc   eq,r0,r14,#L12
+	jc   eq,r0,r14,#L13
 	ld   i0,[fr,-12]
 	call &__ZdlPv
-L12:
+L13:
 	add  sp,#0x4
 	pop  rt,fr
 	ret
-Lscope4:
+Lscope5:
 .data
 	.align 4
 __ZN8NativeUI8BUF_SIZEE:

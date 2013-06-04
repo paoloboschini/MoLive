@@ -2,6 +2,7 @@
 <buildSequence>
 <buildStep type="com.mobilesorcery.sdk.html5.debugsupport"/>
 <buildStep type="resource"/>
+<buildStep type="native"/>
 <buildStep type="compile"/>
 <buildStep type="link"/>
 <buildStep type="pack"/>

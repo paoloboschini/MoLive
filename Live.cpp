@@ -6,15 +6,17 @@
 /**
  * Constructor.
  */
-Live::Live() : DEFAULT_URL("Insert url here") {
+Live::Live() {
     initialize();
-    String url = DEFAULT_URL;
+    String ip;
     String fileName = mFileUtil->getLocalPath() + "LastUrl.txt";
 
+    mUrlField->setPlaceholder("Server IP address here");
+
     // Get the most recently used url.
-    bool success = mFileUtil->readTextFromFile(fileName, url);
-    mUrlField->setText(url);
-    if (success) showPage(url);
+    bool success = mFileUtil->readTextFromFile(fileName, ip);
+    mUrlField->setText(ip);
+    if (success) showPage(ip);
 
     // debug
     lprintfln("@@@ Filename is %s", fileName.c_str());
@@ -32,6 +34,9 @@ Live::Live() : DEFAULT_URL("Insert url here") {
     addMessageFun(
             "getListResources",
             (FunTable::MessageHandlerFun)&Live::getListResources);
+    addMessageFun(
+            "getServerAddress",
+            (FunTable::MessageHandlerFun)&Live::getServerAddress);
 
     // Create resource folder if it does not exist
     fileCreate(mFileUtil->getLocalPath() + "resources/");
@@ -154,6 +159,13 @@ String Live::listToJavaScriptArray(List<String> list) {
     return result;
 }
 
+void Live::getServerAddress(Wormhole::MessageStream& stream) {
+    const char *callbackId = stream.getNext();
+    String script = String("mosync.bridge.reply(") + callbackId + ",'" + mUrlField->getText() + "');";
+    printf("script: %s", script.c_str());
+    mWebView->callJS(script);
+}
+
 /**
  * Initializes the Live app.
  */
@@ -212,8 +224,8 @@ void Live::createUI() {
  * Display a page in the WebView of this moblet.
  * @param url   URL of the page to open.
  */
-void Live::showPage(const MAUtil::String& url) {
-    getWebView()->openURL(url);
+void Live::showPage(const MAUtil::String& ip) {
+    getWebView()->openURL("http://" + ip + ":5678/mobile");
 }
 
 /**
@@ -222,23 +234,19 @@ void Live::showPage(const MAUtil::String& url) {
  */
 void Live::buttonClicked(Widget* button) {
     if (button == mReloadButton) {
-        String url = mUrlField->getText();
-        if (url == DEFAULT_URL) {
-            // invalid url
-            return;
-        }
+        String ip = mUrlField->getText();
 
         // Save the server address on file.
         mFileUtil->writeTextToFile(
                 mFileUtil->getLocalPath() + "LastUrl.txt",
-                url);
+                ip);
 
-        showPage(url);
+        showPage(ip);
         mUrlField->hideKeyboard();
 
     } else if (button == mAboutIcon) {
         //Show the info screen
-        maMessageBox("MoSync Live", "Load web pages live via jsbin.com");
+        maMessageBox("MoSync Live", "MoSync Live");
     }
 }
 

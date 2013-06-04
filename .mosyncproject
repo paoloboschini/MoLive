@@ -13,6 +13,7 @@
 <property key="build.prefs:additional.libraries/Debug" value="MAUtilD.lib, NativeUID.lib, MAFSD.lib, WormholeD.lib, yajlD.lib, NotificationD.lib"/>
 <property key="build.prefs:additional.libraries/Release" value="mastd.lib, mautil.lib, nativeui.lib, mafs.lib, Wormhole.lib, yajl.lib, Notification.lib"/>
 <property key="build.prefs:additional.library.paths/Release" value=""/>
+<property key="build.prefs:app.permissions" value="File\ Storage Internet\ Access Vibration"/>
 <property key="build.prefs:extra.link.sw/Release" value=""/>
 <property key="build.prefs:extra.res.sw/Release" value=""/>
 <property key="build.prefs:gcc.warnings/Debug" value="10"/>

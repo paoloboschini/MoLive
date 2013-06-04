@@ -20,6 +20,9 @@ ResourceDownloader::ResourceDownloader(String filename, String callbackId, WebVi
 void ResourceDownloader::onDownloadComplete(MAHandle data) {
 
     FileUtil fileUtil;
+    String _ = "---> " + fileUtil.getLocalPath() + "resources/" + mFilename;
+    lprintfln(_.c_str());
+    //fileUtil.writeDataToFile("/DCIM/Live/" + mFilename, data);
 
     if (data == NULL) {
         printf("Resource data is NULL, could not download resource");

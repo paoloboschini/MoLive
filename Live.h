@@ -135,6 +135,12 @@ public:
      */
     void openWormhole(MAHandle webViewHandle);
 
+    /**
+     * Returns the server IP address
+     *
+     * @param message The stream sent from JavaScript.
+     */
+    void Live::getServerAddress(Wormhole::MessageStream& stream);
 };
 
 #endif
