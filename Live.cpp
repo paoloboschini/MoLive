@@ -159,12 +159,13 @@ String Live::listToJavaScriptArray(List<String> list) {
     return result;
 }
 
+/** Useless function, the server knows its ip address...
 void Live::getServerAddress(Wormhole::MessageStream& stream) {
     const char *callbackId = stream.getNext();
     String script = String("mosync.bridge.reply(") + callbackId + ",'" + mUrlField->getText() + "');";
     printf("script: %s", script.c_str());
     mWebView->callJS(script);
-}
+} */
 
 /**
  * Initializes the Live app.
@@ -199,7 +200,7 @@ void Live::createUI() {
     mReloadButton = new Button();
     mReloadButton->setText("Reload");
     mReloadButton->addButtonListener(this);
-    //mReloadButton->setHeight(mUrlField->getHeight());
+    mReloadButton->setHeight(mUrlField->getHeight());
 
     mAboutIcon = new ImageButton();
     mAboutIcon->addButtonListener(this);
