@@ -34,9 +34,12 @@ Live::Live() {
     addMessageFun(
             "getListResources",
             (FunTable::MessageHandlerFun)&Live::getListResources);
+
+    /*
     addMessageFun(
             "getServerAddress",
             (FunTable::MessageHandlerFun)&Live::getServerAddress);
+    */
 
     // Create resource folder if it does not exist
     fileCreate(mFileUtil->getLocalPath() + "resources/");
