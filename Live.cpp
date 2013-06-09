@@ -201,7 +201,7 @@ void Live::createUI() {
     mUrlField -> fillSpaceHorizontally();
 
     mReloadButton = new Button();
-    mReloadButton->setText("Reload");
+    mReloadButton->setText("Connect");
     mReloadButton->addButtonListener(this);
     mReloadButton->setHeight(mUrlField->getHeight());
 
