@@ -38,7 +38,7 @@ void ResourceDownloader::onDownloadComplete(MAHandle data) {
 
         // execute the callback, inform JS that the resource was saved
         char script[512];
-        sprintf(script, "mosync.bridge.reply(%s, '%s')", mCallbackId.c_str(), "Resource saved");
+        sprintf(script, "mosync.bridge.reply(%s, '%s', '%s')", mCallbackId.c_str(), "Resource saved", mFilename.c_str());
         mWebView->callJS(script);
     }
 
